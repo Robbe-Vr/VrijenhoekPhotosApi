@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VrijenhoekPhotos.Api", "VrijenhoekPhotos.Api\VrijenhoekPhotos.Api.csproj", "{5093ED91-EA91-4CE9-9030-1C5900851BF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VrijenhoekPhotos.Core", "VrijenhoekPhotos.Core\VrijenhoekPhotos.Core.csproj", "{62183913-9204-425E-9232-5F90F9FB4A18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VrijenhoekPhotos.Exchange", "VrijenhoekPhotos.Exchange\VrijenhoekPhotos.Exchange.csproj", "{D0F713C8-5D29-4ACD-A40F-F666768E48E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VrijenhoekPhotos.Persistence", "VrijenhoekPhotos.Persistence\VrijenhoekPhotos.Persistence.csproj", "{A7A0F280-099A-4A33-8A5F-A21F62A3AF9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VrijenhoekPhotos.FileSystem", "VrijenhoekPhotos.FileSystem\VrijenhoekPhotos.FileSystem.csproj", "{C0783986-8E39-4963-9DDB-2E5C6FA7EAFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SYWCentralLogging", "Libraries\SYWCentralLogging\SYWCentralLogging.csproj", "{8BA017A4-86EF-4DE5-B76F-821E36753C30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5093ED91-EA91-4CE9-9030-1C5900851BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5093ED91-EA91-4CE9-9030-1C5900851BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5093ED91-EA91-4CE9-9030-1C5900851BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5093ED91-EA91-4CE9-9030-1C5900851BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62183913-9204-425E-9232-5F90F9FB4A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62183913-9204-425E-9232-5F90F9FB4A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62183913-9204-425E-9232-5F90F9FB4A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62183913-9204-425E-9232-5F90F9FB4A18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F713C8-5D29-4ACD-A40F-F666768E48E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F713C8-5D29-4ACD-A40F-F666768E48E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F713C8-5D29-4ACD-A40F-F666768E48E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F713C8-5D29-4ACD-A40F-F666768E48E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A0F280-099A-4A33-8A5F-A21F62A3AF9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A0F280-099A-4A33-8A5F-A21F62A3AF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A0F280-099A-4A33-8A5F-A21F62A3AF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A0F280-099A-4A33-8A5F-A21F62A3AF9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0783986-8E39-4963-9DDB-2E5C6FA7EAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0783986-8E39-4963-9DDB-2E5C6FA7EAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0783986-8E39-4963-9DDB-2E5C6FA7EAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0783986-8E39-4963-9DDB-2E5C6FA7EAFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA017A4-86EF-4DE5-B76F-821E36753C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA017A4-86EF-4DE5-B76F-821E36753C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA017A4-86EF-4DE5-B76F-821E36753C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA017A4-86EF-4DE5-B76F-821E36753C30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BDC2C48-B6E5-4E3A-ACA1-2E24FF5888AB}
+	EndGlobalSection
+EndGlobal
